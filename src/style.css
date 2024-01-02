@@ -6,13 +6,13 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .spbb-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
   .spbb-grid {
     grid-template-columns: 1fr;
   }

@@ -1,3 +1,5 @@
+import image from "./book-icon.jpg";
+
 export const data = [
   {
     title: "Adherent",
@@ -67,7 +69,7 @@ export const data = [
     description:
       "In this unapologetically trans, queer romance, Jules escapes an oppressive religious environment to be gay and do crime! Along the way, he falls head over heels for fellow ne'er do well Casper and together they embark on battling their literal and metaphorical demons.",
     author: "H a",
-    img: "http://127.0.0.1:8080/book-icon.jpg",
+    img: image,
   },
   {
     title: "The Cola Pop Creemees: Opening Act",
@@ -81,7 +83,7 @@ export const data = [
     description:
       "Underground mazes, life-altering psychedelics, apocalyptic vocations, and digital wastelands are only some of the hilarious and surreal fever dreams encountered in this boldly unconventional short story collection.",
     author: "George Wylesol",
-    img: "http://127.0.0.1:8080/book-icon.jpg",
+    img: image,
   },
   {
     title: "Damnation Diaries",
