@@ -25,8 +25,8 @@ export default () => {
 
   return (
     <div>
-      <div>
-        <label htmlFor="filter">Search for a book: </label>
+      <div className="input">
+        <label htmlFor="filter">Search: </label>
         <input id="filter" type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
       </div>
       <BooksGrid books={filteredBooks} showModal={showModal} />

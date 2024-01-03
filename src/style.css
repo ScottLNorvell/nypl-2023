@@ -2,12 +2,18 @@ html {
   font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
+.input {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
 .spbb-grid {
   display: grid;
   list-style: none;
   column-gap: 12px;
   row-gap: 15px;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
