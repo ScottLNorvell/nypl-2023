@@ -31,7 +31,7 @@ export default () => {
       </div>
       <BooksGrid books={filteredBooks} showModal={showModal} />
       <dialog className="modal" ref={dialog}>
-        <button onClick={closeModal}>✖</button>
+        <button autoFocus onClick={closeModal}>✖</button>
         <div>
           <h3>{modalBook.title}</h3>
           <img src={modalBook.img} />
